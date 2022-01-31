@@ -33,8 +33,8 @@ class Player:
 
         self.music_db = mysql.connector.connect(
             host="localhost",
-            user="root",
-            password="wwhh44tt"
+            user="",
+            password=""
         )
 
         self.mycursor = self.music_db.cursor(buffered=True)
