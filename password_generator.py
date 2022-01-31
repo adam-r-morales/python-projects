@@ -13,8 +13,8 @@ import mysql.connector
 # Enter your own MySQL username and password
 mydb = mysql.connector.connect(
     host="localhost",
-    user="root",
-    password="wwhh44tt"
+    user="",
+    password=""
 )
 
 # Create cursor object
